@@ -11,7 +11,7 @@ function Detail() {
 
     useEffect(() => {
        getMoive();       
-    }, []) 
+    }, []); 
 
 
     return <h1>Detail</h1>

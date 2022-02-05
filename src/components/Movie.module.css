@@ -1,0 +1,31 @@
+.container {
+  background-color: transparent;
+  width: 645px;
+  height: 400px;
+  margin-left: 5vw;
+  margin-bottom: 20px;
+}
+
+img {
+  position: relative;
+  z-index: 2;
+  top: 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0px gray;
+}
+
+.content {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  top: -250px;
+  left: 100px;
+  width: 375px;
+  height: 250px;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px royalblue;
+}

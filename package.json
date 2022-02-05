@@ -10,6 +10,7 @@
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-loading": "^2.0.3",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
@@ -20,8 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build", 
-    "//" : "pre를 붙이면 pre를 붙이지 않은 것을 실행하기전에 실행됨"
+    "predeploy": "npm run build",
+    "//": "pre를 붙이면 pre를 붙이지 않은 것을 실행하기전에 실행됨"
   },
   "eslintConfig": {
     "extends": [
